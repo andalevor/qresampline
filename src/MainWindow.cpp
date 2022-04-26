@@ -268,8 +268,8 @@ void MainWindow::resampline(double start, double end, double step)
 
 void MainWindow::draw_processed_points()
 {
-    QPen pen((QColor(Qt::GlobalColor::yellow)));
-    QBrush brush(Qt::GlobalColor::yellow);
+    QPen pen((QColor(Qt::GlobalColor::green)));
+    QBrush brush(Qt::GlobalColor::green);
     for (int i = 0; i < processed_points.size(); ++i) {
         ui->processed_table->insertRow(i);
         double x = processed_points[i].x();

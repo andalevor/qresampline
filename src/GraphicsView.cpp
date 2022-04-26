@@ -20,8 +20,9 @@ void GraphicsView::wheelEvent(QWheelEvent* event)
 
 void GraphicsView::toggleDragMode(bool mode)
 {
-    if (mode)
+    if (mode) {
         ; //setDragMode(QGraphicsView::RubberBandDrag);
-    else
+    } else {
         ; //setDragMode(QGraphicsView::ScrollHandDrag);
+    }
 }
